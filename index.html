@@ -941,6 +941,21 @@
       const particlesContainer = document.getElementById('particles');
       particlesContainer.innerHTML = '';
       createParticles();
+      <form name="contact" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="contact" />
+  
+  <label>Your Name:</label>
+  <input type="text" name="name" required />
+
+  <label>Your Email:</label>
+  <input type="email" name="email" required />
+
+  <label>Your Message:</label>
+  <textarea name="message" required></textarea>
+
+  <button type="submit">Send</button>
+</form>
+
     });
   </script>
 </body>
